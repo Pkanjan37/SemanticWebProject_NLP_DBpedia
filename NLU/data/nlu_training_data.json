@@ -1,0 +1,438 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "what is the capital of germany?",
+        "intent": "question",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "value": "capital",
+            "entity": "predicate"
+          },
+          {
+            "start": 23,
+            "end": 30,
+            "value": "germany",
+            "entity": "subject"
+          }
+        ]
+      },
+      {
+        "text": "what is the population of germany?",
+        "intent": "question",
+        "entities": [
+          {
+            "start": 12,
+            "end": 22,
+            "value": "population",
+            "entity": "predicate"
+          },
+          {
+            "start": 26,
+            "end": 33,
+            "value": "germany",
+            "entity": "subject"
+          }
+        ]
+      },
+      {
+        "text": "who is the leader of germany?",
+        "intent": "question",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "leader",
+            "entity": "predicate"
+          },
+          {
+            "start": 21,
+            "end": 28,
+            "value": "germany",
+            "entity": "subject"
+          }
+        ]
+      },
+      {
+        "text": "who is the leading party of germany?",
+        "intent": "question",
+        "entities": [
+          {
+            "start": 11,
+            "end": 24,
+            "value": "leading party",
+            "entity": "predicate"
+          },
+          {
+            "start": 28,
+            "end": 35,
+            "value": "germany",
+            "entity": "subject"
+          }
+        ]
+      },
+      {
+        "text": "what is the postal code of berlin?",
+        "intent": "question",
+        "entities": [
+          {
+            "start": 12,
+            "end": 23,
+            "value": "postal code",
+            "entity": "predicate"
+          },
+          {
+            "start": 27,
+            "end": 33,
+            "value": "berlin",
+            "entity": "subject"
+          }
+        ]
+      },
+      {
+        "text": "in what country is berlin located?",
+        "intent": "question",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "country",
+            "entity": "predicate"
+          },
+          {
+            "start": 19,
+            "end": 25,
+            "value": "berlin",
+            "entity": "subject"
+          }
+        ]
+      },
+      {
+        "text": "what is the capital of france?",
+        "intent": "question",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "value": "capital",
+            "entity": "predicate"
+          },
+          {
+            "start": 23,
+            "end": 29,
+            "value": "france",
+            "entity": "subject"
+          }
+        ]
+      },
+      {
+        "text": "what is the population of france?",
+        "intent": "question",
+        "entities": [
+          {
+            "start": 12,
+            "end": 22,
+            "value": "population",
+            "entity": "predicate"
+          },
+          {
+            "start": 26,
+            "end": 32,
+            "value": "paris",
+            "entity": "subject"
+          }
+        ]
+      },
+      {
+        "text": "who is the leader of france?",
+        "intent": "question",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "leader",
+            "entity": "predicate"
+          },
+          {
+            "start": 21,
+            "end": 27,
+            "value": "france",
+            "entity": "subject"
+          }
+        ]
+      },
+      {
+        "text": "who is the leading party of france?",
+        "intent": "question",
+        "entities": [
+          {
+            "start": 11,
+            "end": 24,
+            "value": "leading party",
+            "entity": "predicate"
+          },
+          {
+            "start": 28,
+            "end": 34,
+            "value": "france",
+            "entity": "subject"
+          }
+        ]
+      },
+      {
+        "text": "what is the postal code of paris?",
+        "intent": "question",
+        "entities": [
+          {
+            "start": 12,
+            "end": 23,
+            "value": "postal code",
+            "entity": "predicate"
+          },
+          {
+            "start": 27,
+            "end": 32,
+            "value": "paris",
+            "entity": "subject"
+          }
+        ]
+      },
+      {
+        "text": "in what country is paris located?",
+        "intent": "question",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "country",
+            "entity": "predicate"
+          },
+          {
+            "start": 19,
+            "end": 24,
+            "value": "paris",
+            "entity": "subject"
+          }
+        ]
+      },
+      {
+        "text": "what is the capital of ireland?",
+        "intent": "question",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "value": "capital",
+            "entity": "predicate"
+          },
+          {
+            "start": 23,
+            "end": 30,
+            "value": "ireland",
+            "entity": "subject"
+          }
+        ]
+      },
+      {
+        "text": "what is the population of ireland?",
+        "intent": "question",
+        "entities": [
+          {
+            "start": 12,
+            "end": 22,
+            "value": "population",
+            "entity": "predicate"
+          },
+          {
+            "start": 26,
+            "end": 33,
+            "value": "ireland",
+            "entity": "subject"
+          }
+        ]
+      },
+      {
+        "text": "who is the leader of ireland?",
+        "intent": "question",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "leader",
+            "entity": "predicate"
+          },
+          {
+            "start": 21,
+            "end": 28,
+            "value": "ireland",
+            "entity": "subject"
+          }
+        ]
+      },
+      {
+        "text": "who is the leading party of ireland?",
+        "intent": "question",
+        "entities": [
+          {
+            "start": 11,
+            "end": 24,
+            "value": "leading party",
+            "entity": "predicate"
+          },
+          {
+            "start": 28,
+            "end": 35,
+            "value": "ireland",
+            "entity": "subject"
+          }
+        ]
+      },
+      {
+        "text": "what is the postal code of dublin?",
+        "intent": "question",
+        "entities": [
+          {
+            "start": 12,
+            "end": 23,
+            "value": "postal code",
+            "entity": "predicate"
+          },
+          {
+            "start": 27,
+            "end": 33,
+            "value": "dublin",
+            "entity": "subject"
+          }
+        ]
+      },
+      {
+        "text": "in what country is dublin located?",
+        "intent": "question",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "country",
+            "entity": "predicate"
+          },
+          {
+            "start": 19,
+            "end": 25,
+            "value": "dublin",
+            "entity": "subject"
+          }
+        ]
+      },
+      {
+        "text": "what is the capital of great britain?",
+        "intent": "question",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "value": "capital",
+            "entity": "predicate"
+          },
+          {
+            "start": 23,
+            "end": 36,
+            "value": "great britain",
+            "entity": "subject"
+          }
+        ]
+      },
+      {
+        "text": "what is the population of great britain?",
+        "intent": "question",
+        "entities": [
+          {
+            "start": 12,
+            "end": 22,
+            "value": "population",
+            "entity": "predicate"
+          },
+          {
+            "start": 26,
+            "end": 39,
+            "value": "great britain",
+            "entity": "subject"
+          }
+        ]
+      },
+      {
+        "text": "who is the leader of great britain?",
+        "intent": "question",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "leader",
+            "entity": "predicate"
+          },
+          {
+            "start": 21,
+            "end": 34,
+            "value": "great britain",
+            "entity": "subject"
+          }
+        ]
+      },
+      {
+        "text": "who is the leading party of great britain?",
+        "intent": "question",
+        "entities": [
+          {
+            "start": 11,
+            "end": 24,
+            "value": "leading party",
+            "entity": "predicate"
+          },
+          {
+            "start": 28,
+            "end": 41,
+            "value": "great britain",
+            "entity": "subject"
+          }
+        ]
+      },
+      {
+        "text": "what is the postal code of london?",
+        "intent": "question",
+        "entities": [
+          {
+            "start": 12,
+            "end": 23,
+            "value": "postal code",
+            "entity": "predicate"
+          },
+          {
+            "start": 27,
+            "end": 33,
+            "value": "london",
+            "entity": "subject"
+          }
+        ]
+      },
+      {
+        "text": "in what country is london located?",
+        "intent": "question",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "country",
+            "entity": "predicate"
+          },
+          {
+            "start": 19,
+            "end": 25,
+            "value": "london",
+            "entity": "subject"
+          }
+        ]
+      }
+    ]
+  }
+}
